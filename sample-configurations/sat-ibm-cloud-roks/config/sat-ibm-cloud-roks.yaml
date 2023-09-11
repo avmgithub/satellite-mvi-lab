@@ -4,7 +4,7 @@ provider:
   region: {{ ibm_cloud_region }}
 
 resource_group:
-- name: "mvi-on-sat" # should exist already
+- name: "xyz-group" # should exist already
 
 ssh_keys:
 - name: {{ env_id }}-provision
@@ -58,7 +58,7 @@ cos:
 
 custom_image:
 - name: {{ env_id }}-rhcos410
-  href: "cos://eu-de/images-mvi-on-sat/rhcos-4.10.37-x86_64-ibmcloud.x86_64.qcow2"
+  href: "cos://us-east/avm-rhcos-bucket/rhcos-4.10.37-x86_64-ibmcloud.x86_64.qcow2"
   operating_system: fedora-coreos-stable-amd64
 
 satellite:

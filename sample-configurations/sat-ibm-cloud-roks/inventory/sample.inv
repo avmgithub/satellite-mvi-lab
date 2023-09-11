@@ -6,8 +6,8 @@ environment_name=sample
 
 # Uncomment for IBM Cloud ROKS deployment
 cloud_platform=ibm-cloud
-ibm_cloud_region=eu-de
-ibm_cloud_location=fra
+ibm_cloud_region=us-east
+ibm_cloud_location=wdc
 
 #####################
 # Using File Vault
